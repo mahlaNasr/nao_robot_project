@@ -31,6 +31,8 @@ There are two folders that are in this repository:
 * scripts for analysing qrcodes
 
 <br />
+<br />
+
 <p>---------------------------------------------------------------------------<p/>
 Nao Scan Qr Code folder
 <p>---------------------------------------------------------------------------<p/>
@@ -38,12 +40,10 @@ This folder consists of all the codes that were written for the robot to scan QR
 To run the whole system, execute `nao_project.py` python file. A few libraries are needed to be installed in order to run the scripts.
 
 
-
 <br />
 <!-- GETTING STARTED -->
-<p>---------------------------------------------------------------------------<p/>
 Getting Started
-<p>---------------------------------------------------------------------------<p/>
+
 <br />
 <p>---------------------------------------------------------------------------<p/>
 Prerequisites
@@ -55,6 +55,7 @@ The older version of python is needed in order to run the software.
 3. Get python SDK from [ALDebaran documentations](http://doc.aldebaran.com/2-4/dev/python/install_guide.html)
 
 
+<br />
 <br />
 <p>---------------------------------------------------------------------------<p/>
 Installation
@@ -80,6 +81,7 @@ Other libraries such as JSON, time, os, argparse, random and qi were imported.
 
 <br />
 <br />
+<br />
 <p>---------------------------------------------------------------------------<p/>
 Scripts for Analysing Qr Codes folder 
 <p>---------------------------------------------------------------------------<p/>
@@ -91,6 +93,7 @@ There was two ways:
  
 
 <br />
+<br />
 <p>---------------------------------------------------------------------------<p/>
 Prerequisites
 <p>---------------------------------------------------------------------------<p/>
@@ -98,6 +101,7 @@ These files in this folder were run and tested using python 3.8.
 1. Get Python 3.8 from [python official website](https://www.python.org/about/)
 
 
+<br />
 <br />
 <p>---------------------------------------------------------------------------<p/>
 Installation
@@ -110,7 +114,8 @@ Extra libraries are needed to run this section of scripts as well as comparing t
 2. We also need ZBar and OpenCV tools here as well.
 
 
-
+<br />
+<br />
 <br />
 <!-- CONTRIBUTING -->
 <p>---------------------------------------------------------------------------<p/>
@@ -120,12 +125,15 @@ This project was a contributed to help the National Gallery in order to make the
 
 
 <br />
+<br />
 <!-- LICENSE -->
 <p>---------------------------------------------------------------------------<p/>
 License
 <p>---------------------------------------------------------------------------<p/>
 For distribution, please reference my code :)
 
+
+<br />
 <br />
 <!-- CONTACT -->
 <p>---------------------------------------------------------------------------<p/>
