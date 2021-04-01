@@ -23,6 +23,7 @@
 
 <!-- ABOUT THE PROJECT -->
 About The Project
+<p>------------------------<p/>
 
 This project proposes a system where humanoid robot, NAO, is used to scan QR code tickets in the National Gallery art museum.
 
