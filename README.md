@@ -22,7 +22,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-<b>About The Project</b>
+About The Project
 
 This project proposes a system where humanoid robot, NAO, is used to scan QR code tickets in the National Gallery art museum.
 
@@ -31,7 +31,7 @@ There are two folders that are in this repository:
 * scripts for analysing qrcodes
 
 <br />
-<b>Nao Scan Qr Code folder<b/>
+Nao Scan Qr Code folder
 
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visiotrs.
 To run the whole system, execute `nao_project.py` python file. A few libraries are needed to be installed in order to run the scripts.
@@ -40,9 +40,9 @@ To run the whole system, execute `nao_project.py` python file. A few libraries a
 
 <br />
 <!-- GETTING STARTED -->
-<b>Getting Started<b/>
+Getting Started
 
-<b>Prerequisites<b/>
+Prerequisites
 
 The older version of python is needed in order to run the software.
 1. Get Python 2.7 from [python official website](https://www.python.org/about/)
@@ -51,7 +51,7 @@ The older version of python is needed in order to run the software.
 
 
 <br />
-<b>Installation<b/>
+Installation
 
 A few libraries are also needed.
 
@@ -73,7 +73,7 @@ Other libraries such as JSON, time, os, argparse, random and qi were imported.
 
 <br />
 <br />
-<b> Scripts for Analysing Qr Codes folder <b/>
+Scripts for Analysing Qr Codes folder 
 
 This folder was added to show how the images were analysed and decoded using a few other libraries. The results were then stored onto an Excel sheet.
 
@@ -83,14 +83,14 @@ There was two ways:
  
 
 <br />
-<b>Prerequisites<b/>
+Prerequisites
 
 These files in this folder were run and tested using python 3.8. 
 1. Get Python 3.8 from [python official website](https://www.python.org/about/)
 
 
 <br />
-<b>Installation<b/>
+Installation
 
 Extra libraries are needed to run this section of scripts as well as comparing the obtained results of images from Excel file.
 
@@ -103,20 +103,20 @@ Extra libraries are needed to run this section of scripts as well as comparing t
 
 <br />
 <!-- CONTRIBUTING -->
-<b>Contributing<b/>
+Contributing
 
 This project was a contributed to help the National Gallery in order to make their ticket scan system automated through using a humanoid robot, NAO.
 
 
 <br />
 <!-- LICENSE -->
-<b>License<b/>
+License
 
 For distribution, please reference my code :)
 
 <br />
 <!-- CONTACT -->
-<b>Contact<b/>
+Contact
 
 My LinkedIn - [Link to LinkedIn] (https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
 
