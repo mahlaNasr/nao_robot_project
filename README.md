@@ -18,7 +18,7 @@
 
 
 
-
+<br />
 
 
 <!-- ABOUT THE PROJECT -->
@@ -30,7 +30,7 @@ There are two folders that are in this repository:
 * nao_scan_qrcode
 * scripts for analysing qrcodes
 
-
+<br />
 ### Nao Scan Qr Code folder
 
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visiotrs.
@@ -38,7 +38,7 @@ To run the whole system, execute `nao_project.py` python file. A few libraries a
 
 
 
-
+<br />
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -50,7 +50,7 @@ The older version of python is needed in order to run the software.
 3. Get python SDK from [ALDebaran documentations](http://doc.aldebaran.com/2-4/dev/python/install_guide.html)
 
 
-
+<br />
 ### Installation
 
 A few libraries are also needed.
@@ -71,8 +71,8 @@ A few libraries are also needed.
 Other libraries such as JSON, time, os, argparse, random and qi were imported.
 
 
-
-
+<br />
+<br />
 ### Scripts for Analysing Qr Codes folder
 
 This folder was added to show how the images were analysed and decoded using a few other libraries. The results were then stored onto an Excel sheet.
@@ -82,14 +82,14 @@ There was two ways:
 2. Analysing images that are already taken -> `opencv_image_analyse` folder
  
 
-
+<br />
 ### Prerequisites
 
 These files in this folder were run and tested using python 3.8. 
 1. Get Python 3.8 from [python official website](https://www.python.org/about/)
 
 
-
+<br />
 ### Installation
 
 Extra libraries are needed to run this section of scripts as well as comparing the obtained results of images from Excel file.
@@ -101,20 +101,20 @@ Extra libraries are needed to run this section of scripts as well as comparing t
 
 
 
-
+<br />
 <!-- CONTRIBUTING -->
 ## Contributing
 
 This project was a contributed to help the National Gallery in order to make their ticket scan system automated through using a humanoid robot, NAO.
 
 
-
+<br />
 <!-- LICENSE -->
 ## License
 
 For distribution, please reference my code :)
 
-
+<br />
 <!-- CONTACT -->
 ## Contact
 
