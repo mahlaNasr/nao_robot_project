@@ -40,7 +40,7 @@ To run the whole system, execute `nao_project.py` python file. A few libraries a
 
 <br />
 <!-- GETTING STARTED -->
-##Getting Started
+<b>Getting Started<b/>
 
 ###Prerequisites
 
