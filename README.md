@@ -94,9 +94,9 @@ These files in this folder were run and tested using python 3.8.
 
 Extra libraries are needed to run this section of scripts as well as comparing the obtained results of images from Excel file.
 
-1. Install Anaconda which comes with a lot of pre-installed libraries. Instruction found in [https://docs.continuum.io/anaconda/install/](Anadonda Documentations)
+1. Install Anaconda which comes with a lot of pre-installed libraries. Instruction found in [Anadonda Documentations](https://docs.continuum.io/anaconda/install/).
 
-  Alternative method can be found here [https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html](through miniconda).
+  Alternative method can be found here [through miniconda](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html).
 2. We also need ZBar and OpenCV tools here as well.
 
 
