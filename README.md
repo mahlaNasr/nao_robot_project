@@ -31,7 +31,7 @@ There are two folders that are in this repository:
 * scripts for analysing qrcodes
 
 <br />
-Nao Scan Qr Code folder <p>---------------------------------------------------<p/>
+Nao Scan Qr Code folder <p>--------------------------------------------------------------------------------------------<p/>
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visiotrs.
 To run the whole system, execute `nao_project.py` python file. A few libraries are needed to be installed in order to run the scripts.
 
@@ -39,18 +39,18 @@ To run the whole system, execute `nao_project.py` python file. A few libraries a
 <br />
 <!-- GETTING STARTED -->
 Getting Started
-
 <br />
-Prerequisites <p>--------------------------------------------------------------<p/>
+<br />
+Prerequisites <p>--------------------------------------------------------------------------------------------<p/>
 
 The older version of python is needed in order to run the software.
 1. Get Python 2.7 from [python official website](https://www.python.org/about/)
 2. Get Choregraphe installed from [ALDebaran documentations](http://doc.aldebaran.com/2-4/software/choregraphe/installing.html)
 3. Get python SDK from [ALDebaran documentations](http://doc.aldebaran.com/2-4/dev/python/install_guide.html)
 
-
 <br />
-Installation <p>----------------------------------------------------------------<p/>
+<br />
+Installation <p>--------------------------------------------------------------------------------------------<p/>
 
 A few libraries are also needed.
 
@@ -72,7 +72,7 @@ Other libraries such as JSON, time, os, argparse, random and qi were imported.
 
 <br />
 <br />
-Scripts for Analysing Qr Codes folder <p>-----------------------------------------<p/>
+Scripts for Analysing Qr Codes folder <p>--------------------------------------------------------------------------------------------<p/>
 This folder was added to show how the images were analysed and decoded using a few other libraries. The results were then stored onto an Excel sheet.
 
 There was two ways:
@@ -80,15 +80,15 @@ There was two ways:
 2. Analysing images that are already taken -> `opencv_image_analyse` folder
  
 
-
 <br />
-Prerequisites <p>-------------------------------------------------------------------<p/>
+<br />
+Prerequisites <p>--------------------------------------------------------------------------------------------<p/>
 These files in this folder were run and tested using python 3.8. 
 1. Get Python 3.8 from [python official website](https://www.python.org/about/)
 
-
 <br />
-Installation <p>--------------------------------------------------------------------<p/>
+<br />
+Installation <p>--------------------------------------------------------------------------------------------<p/>
 Extra libraries are needed to run this section of scripts as well as comparing the obtained results of images from Excel file.
 
 1. Install Anaconda which comes with a lot of pre-installed libraries. Instruction found in [Anadonda Documentations](https://docs.continuum.io/anaconda/install/).
@@ -97,23 +97,22 @@ Extra libraries are needed to run this section of scripts as well as comparing t
 2. We also need ZBar and OpenCV tools here as well.
 
 
-
+<br />
 <br />
 <!-- CONTRIBUTING -->
-Contributing <p>---------------------------------------------------------------------<p/>
+Contributing <p>--------------------------------------------------------------------------------------------<p/>
 This project was a contributed to help the National Gallery in order to make their ticket scan system automated through using a humanoid robot, NAO.
 
-
+<br />
 <br />
 <!-- LICENSE -->
-License <p>---------------------------------------------------------------------------<p/>
+License <p>--------------------------------------------------------------------------------------------<p/>
 
 For distribution, please reference my code :)
-
+<br />
 <br />
 <!-- CONTACT -->
-
-Contact <p>---------------------------------------------------------------------------<p/>
+Contact <p>--------------------------------------------------------------------------------------------<p/>
 
 My LinkedIn - [Link to LinkedIn] (https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
 
