@@ -41,7 +41,7 @@ To run the whole system, execute `nao_project.py` python file. A few libraries a
 <br />
 <!-- GETTING STARTED -->
 Getting Started
-------------------------
+<p>------------------------<p/>
 Prerequisites
 
 The older version of python is needed in order to run the software.
