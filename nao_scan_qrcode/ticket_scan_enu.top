@@ -1,0 +1,48 @@
+topic: ~ticket_scan()
+language: enu
+
+# Defining all concepts here
+concept:(human_response) [me us "it is us" "it is me" "it's us" "it's me" "good [morning afternoon evening]" "how's it [going hanging]" "you [alright "doing ok"]" hi hello hey greetings] {there}
+concept:(hi) [hi hello hey greetings] {there}
+concept:(yes) [yes yep yeah "of course" good right alright "{possibly} maybe" "all right" nice "of course"
+            "sure {"I do"}" true absolutely totally definitely indeed true yea yup "{most} definitely" certainly "most certainly"]
+concept:(no) [no nope "I don't think so" "not at all" "not even close {enough}"]
+concept:(ok) [ok alright fine okay great nice fantastic]
+concept:(great) [great awesome nice fantastic]
+concept:(repeat_it) ["[restate repeat] {me} [the your] {last} question"
+                    "what is the question {again}"
+                    "repeat ["the sentence" "your last sentence" "what you just said"] {again} {please}"
+                    "{"can you"} repeat {please}"
+                    "{"can you"} ask {me} the question {again}"
+                    "{"can you"} ask {me} the question one more time"
+                    "tell ["it to me" me] again"
+                    "what [is was] the question {again}"
+                    "what ["did you say" "were you [saying "asking me"]"] {again}"
+                    "ask {me} [the that] question {again}"
+                    "repeat [it please]"
+                    "come again"
+                    "[say ask] {that} again"
+                    "what was the question" what where "where is this" "sorry where"]
+concept:(ticket) ["you have your ticket with you"
+                  "you have a ticket" "have booked a ticket"
+                  "have got a ticket with you"]
+concept:(noticket) ["I'm very sorry but you much have booked a ticket beforehand"
+                     "Oh no, you must have a ticket to enter"
+                     "I'm sorry but you cannot enter the Museum without a ticket"]
+
+
+# The dialogue starts from here
+u:(e:onStart) Who is next? ^activate(check_ticket)
+
+u:(~human_response %check_ticket) ~hi Please press YES if ~ticket or NO if you don't
+    u1:(~repeat_it)  Please press a button that applies to you on the window being shown.
+
+u:(have_ticket) ~great Please scan your QR code. ^gotoReactivate(scan)
+    u1:(~repeat_it) PLease scan your QR Code using the camera
+
+u:(no_ticket) ~noticket . Please visit the National Gallery Museum to book your ticket next time! ^gotoReactivate(no_ticket)
+
+# Stop this dialogue engine when this proposal is activated
+proposal: %scan $onStopped=1
+# Start the conversations again for next person
+proposal: %no_ticket If you need more help, a member of staff can guide you more. I hope to see you next time! $onStart=1
