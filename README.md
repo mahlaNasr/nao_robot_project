@@ -56,9 +56,9 @@ The older version of python is needed in order to run the software.
 A few libraries are also needed.
 
 1. Install Computer Vision tools for OpenCV
-  ```sh
-  pip install opencv-python
-  ```
+    ```sh
+    pip install opencv-python
+    ```
 2. If your python package does not have TKinter pre-installed for the Graphical User Interface (GUI), run this command to install for python 2.7 on Linux
    ```sh
    sudo apt-get install python-tk
