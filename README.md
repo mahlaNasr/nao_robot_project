@@ -45,9 +45,9 @@ To run the whole system, execute `nao_project.py` python file. A few libraries a
 ### Prerequisites
 
 The older version of python is needed in order to run the software.
-1. Get Python 2.7 from [https://www.python.org/about/](python official website)
-2. Get Choregraphe installed from [http://doc.aldebaran.com/2-4/software/choregraphe/installing.html](ALDebaran documentations)
-3. Get python SDK from [http://doc.aldebaran.com/2-4/dev/python/install_guide.html](ALDebaran documentations)
+1. Get Python 2.7 from [python official website](https://www.python.org/about/)
+2. Get Choregraphe installed from [ALDebaran documentations](http://doc.aldebaran.com/2-4/software/choregraphe/installing.html)
+3. Get python SDK from [ALDebaran documentations](http://doc.aldebaran.com/2-4/dev/python/install_guide.html)
 
 
 
@@ -86,7 +86,7 @@ There was two ways:
 ### Prerequisites
 
 These files in this folder were run and tested using python 3.8. 
-1. Get Python 3.8 from [https://www.python.org/about/](python official website)
+1. Get Python 3.8 from [python official website](https://www.python.org/about/)
 
 
 
@@ -118,8 +118,8 @@ For distribution, please reference my code :)
 <!-- CONTACT -->
 ## Contact
 
-My LinkedIn - [https://www.linkedin.com/in/mahla-nasrollahi-0bb679163] Link to LinkedIn
+My LinkedIn - [Link to LinkedIn] (https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
 
-Project Link: [https://github.com/mahlaNasr/nao_robot_project] Link to NAO robot project github
+Project Link:  [Link to NAO robot project github](https://github.com/mahlaNasr/nao_robot_project)
 
 
