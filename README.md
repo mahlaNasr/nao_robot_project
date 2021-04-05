@@ -22,15 +22,15 @@
 This project proposes a system where humanoid robot, NAO, is used to scan QR code tickets in **the National Gallery** art museum.
 
 There are two folders that are in this repository:
-* nao_scan_qrcode
-* analyse_qrcode
+* (a) nao_scan_qrcode
+* (b) analyse_qrcode
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 
-### Nao Scan Qr Code folder 
+### (a) Nao Scan Qr Code folder 
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visiotrs.
 To run the whole system, execute `nao_project.py` python file. A few libraries are needed to be installed in order to run the scripts.
 
@@ -64,7 +64,7 @@ Other libraries such as JSON, time, os, argparse, random and qi were imported.
 
 
 
-### Scripts for Analysing Qr Codes folder 
+### (b) Scripts for Analysing Qr Codes folder 
 This folder was added to show how the images were analysed and decoded using a few other libraries. The results were then stored onto an Excel sheet.
 
 There was two ways:
