@@ -1,7 +1,7 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
+<br/>
 <p align="center">
   <a href="https://github.com/mahlaNasr/nao_robot_project">
     <img src="nao_logo.png" alt="Logo" width="100" height="100">
@@ -11,13 +11,13 @@
 
   <p align="center">
     Final Year 3 BEng Individual Project
-    <br />
+    <br/>
   </p>
 </p>
 
 
 
-<br />
+<br/>
 
 
 <!-- ABOUT THE PROJECT -->
@@ -29,7 +29,7 @@ There are two folders that are in this repository:
 * nao_scan_qrcode
 * scripts for analysing qrcodes
 
-<br />
+<br/>
 # Nao Scan Qr Code folder <p>--------------------------------------------------------------------------------------------<p/>
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visiotrs.
 To run the whole system, execute `nao_project.py` python file. A few libraries are needed to be installed in order to run the scripts.
