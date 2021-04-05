@@ -21,7 +21,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-### About The Project
+#### About The Project
 
 This project proposes a system where humanoid robot, NAO, is used to scan QR code tickets in the National Gallery art museum.
 
@@ -39,16 +39,15 @@ To run the whole system, execute `nao_project.py` python file. A few libraries a
 <!-- GETTING STARTED -->
 # Getting Started
 
-#### Prerequisites 
+### Prerequisites 
 
 The older version of python is needed in order to run the software.
 1. Get Python 2.7 from [python official website](https://www.python.org/about/)
 2. Get Choregraphe installed from [ALDebaran documentations](http://doc.aldebaran.com/2-4/software/choregraphe/installing.html)
 3. Get python SDK from [ALDebaran documentations](http://doc.aldebaran.com/2-4/dev/python/install_guide.html)
 
-<br />
-<br />
-Installation <p>--------------------------------------------------------------------------------------------<p/>
+
+### Installation 
 
 A few libraries are also needed.
 
@@ -68,9 +67,8 @@ A few libraries are also needed.
 Other libraries such as JSON, time, os, argparse, random and qi were imported.
 
 
-<br />
-<br />
-Scripts for Analysing Qr Codes folder <p>--------------------------------------------------------------------------------------------<p/>
+
+### Scripts for Analysing Qr Codes folder 
 This folder was added to show how the images were analysed and decoded using a few other libraries. The results were then stored onto an Excel sheet.
 
 There was two ways:
@@ -78,15 +76,13 @@ There was two ways:
 2. Analysing images that are already taken -> `opencv_image_analyse` folder
  
 
-<br />
-<br />
-Prerequisites <p>--------------------------------------------------------------------------------------------<p/>
+### Prerequisites 
 These files in this folder were run and tested using python 3.8. 
 1. Get Python 3.8 from [python official website](https://www.python.org/about/)
 
-<br />
-<br />
-Installation <p>--------------------------------------------------------------------------------------------<p/>
+
+
+### Installation 
 Extra libraries are needed to run this section of scripts as well as comparing the obtained results of images from Excel file.
 
 1. Install Anaconda which comes with a lot of pre-installed libraries. Instruction found in [Anadonda Documentations](https://docs.continuum.io/anaconda/install/).
@@ -95,22 +91,20 @@ Extra libraries are needed to run this section of scripts as well as comparing t
 2. We also need ZBar and OpenCV tools here as well.
 
 
-<br />
-<br />
+
 <!-- CONTRIBUTING -->
-Contributing <p>--------------------------------------------------------------------------------------------<p/>
+### Contributing 
 This project was a contributed to help the National Gallery in order to make their ticket scan system automated through using a humanoid robot, NAO.
 
-<br />
-<br />
+
 <!-- LICENSE -->
-License <p>--------------------------------------------------------------------------------------------<p/>
+### License 
 
 For distribution, please reference my code :)
-<br />
-<br />
+
+
 <!-- CONTACT -->
-Contact <p>--------------------------------------------------------------------------------------------<p/>
+### Contact 
 
 My LinkedIn - [Link to LinkedIn] (https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
 
