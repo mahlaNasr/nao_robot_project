@@ -21,7 +21,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-About The Project
+### About The Project
 
 This project proposes a system where humanoid robot, NAO, is used to scan QR code tickets in the National Gallery art museum.
 
@@ -30,17 +30,17 @@ There are two folders that are in this repository:
 * scripts for analysing qrcodes
 
 
-### Nao Scan Qr Code folder <p>--------------------------------------------------------------------------------------------<p/>
+### Nao Scan Qr Code folder 
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visiotrs.
 To run the whole system, execute `nao_project.py` python file. A few libraries are needed to be installed in order to run the scripts.
 
 
-<br />
+
 <!-- GETTING STARTED -->
-Getting Started
-<br />
-<br />
-Prerequisites <p>--------------------------------------------------------------------------------------------<p/>
+## Getting Started
+<br/>
+<br/>
+### Prerequisites 
 
 The older version of python is needed in order to run the software.
 1. Get Python 2.7 from [python official website](https://www.python.org/about/)
