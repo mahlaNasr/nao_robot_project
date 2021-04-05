@@ -21,7 +21,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-### About The Project
+## About The Project
 
 This project proposes a system where humanoid robot, NAO, is used to scan QR code tickets in the National Gallery art museum.
 
@@ -37,7 +37,7 @@ To run the whole system, execute `nao_project.py` python file. A few libraries a
 
 
 <!-- GETTING STARTED -->
-# Getting Started
+## Getting Started
 
 ### Prerequisites 
 
