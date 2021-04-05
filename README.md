@@ -108,7 +108,8 @@ For distribution, please reference my code and cite my report which can be found
 <!-- CONTACT -->
 ## Contact 
 
-My LinkedIn - [Link to LinkedIn] (https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
-Project Link:  [Link to NAO robot project github](https://github.com/mahlaNasr/nao_robot_project)
+My LinkedIn: [Link to LinkedIn](https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
+
+Project Link: [Link to NAO robot project github](https://github.com/mahlaNasr/nao_robot_project)
 
 
