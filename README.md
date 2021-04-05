@@ -23,7 +23,7 @@ This project proposes a system where humanoid robot, NAO, is used to scan QR cod
 
 There are two folders that are in this repository:
 * nao_scan_qrcode
-* scripts for analysing qrcodes
+* analyse_qrcode
 
 
 <!-- GETTING STARTED -->
