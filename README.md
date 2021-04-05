@@ -30,7 +30,7 @@ There are two folders that are in this repository:
 * scripts for analysing qrcodes
 
 
-## Nao Scan Qr Code folder <p>--------------------------------------------------------------------------------------------<p/>
+### Nao Scan Qr Code folder <p>--------------------------------------------------------------------------------------------<p/>
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visiotrs.
 To run the whole system, execute `nao_project.py` python file. A few libraries are needed to be installed in order to run the scripts.
 
