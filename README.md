@@ -34,15 +34,12 @@ There are two folders that are in this repository:
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visiotrs.
 To run the whole system, execute `nao_project.py` python file. A few libraries are needed to be installed in order to run the scripts.
 
-
-
 #### Prerequisites 
 
 The older version of python is needed in order to run the software.
 1. Get Python 2.7 from [python official website](https://www.python.org/about/)
 2. Get Choregraphe installed from [ALDebaran documentations](http://doc.aldebaran.com/2-4/software/choregraphe/installing.html)
 3. Get python SDK from [ALDebaran documentations](http://doc.aldebaran.com/2-4/dev/python/install_guide.html)
-
 
 #### Installation 
 
@@ -60,8 +57,10 @@ A few libraries are also needed.
    ```sh
    pip install pyzbar
    ```
-   
 Other libraries such as JSON, time, os, argparse, random and qi were imported.
+
+
+
 
 
 
@@ -78,7 +77,6 @@ These files in this folder were run and tested using python 3.8.
 1. Get Python 3.8 from [python official website](https://www.python.org/about/)
 
 
-
 #### Installation 
 Extra libraries are needed to run this section of scripts as well as comparing the obtained results of images from Excel file.
 
@@ -89,22 +87,28 @@ Extra libraries are needed to run this section of scripts as well as comparing t
 
 
 
+
 <!-- CONTRIBUTING -->
 ## Contributing 
 This project was a contributed to help the National Gallery in order to make their ticket scan system automated through using a humanoid robot, NAO.
 
 
+
+
+
 <!-- LICENSE -->
 ## License 
 
-For distribution, please reference my code :)
+For distribution, please reference my code and cite my report which can be found in  :)
+
+
+
 
 
 <!-- CONTACT -->
 ## Contact 
 
 My LinkedIn - [Link to LinkedIn] (https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
-
 Project Link:  [Link to NAO robot project github](https://github.com/mahlaNasr/nao_robot_project)
 
 
