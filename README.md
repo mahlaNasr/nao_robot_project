@@ -16,6 +16,11 @@
 </p>
 
 
+<p align="center">
+  <img width="200" height="200" src="https://github.com/moj124/NGX/blob/main/nao_head.png">
+</p>
+
+# NGX
 
 
 <br />
