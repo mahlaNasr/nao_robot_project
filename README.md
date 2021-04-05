@@ -6,7 +6,7 @@
   <a href="https://github.com/mahlaNasr/nao_robot_project">
     <img src="nao_logo.png" alt="Logo" width="150" height="150">
   </a>
-  <h3 align="center">NAO Robot Project</h3>
+  <h3 align="center">NGX NAO Robot Project</h3>
   <p align="center">
     Final Year 3 BEng Individual Project
   </p>
@@ -19,7 +19,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project proposes a system where humanoid robot, NAO, is used to scan QR code tickets in the National Gallery art museum.
+This project proposes a system where humanoid robot, NAO, is used to scan QR code tickets in **the National Gallery** art museum.
 
 There are two folders that are in this repository:
 * nao_scan_qrcode
