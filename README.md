@@ -4,17 +4,13 @@
 
 <p align="center">
   <a href="https://github.com/mahlaNasr/nao_robot_project">
-    <img src="nao_logo.png" alt="Logo" width="100" height="100">
+    <img src="nao_logo.png" alt="Logo" width="150" height="150">
   </a>
-
   <h3 align="center">NAO Robot Project</h3>
-
   <p align="center">
     Final Year 3 BEng Individual Project
-
   </p>
 </p>
-
 
 
 
@@ -30,16 +26,17 @@ There are two folders that are in this repository:
 * scripts for analysing qrcodes
 
 
+<!-- GETTING STARTED -->
+## Getting Started
+
+
 ### Nao Scan Qr Code folder 
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visiotrs.
 To run the whole system, execute `nao_project.py` python file. A few libraries are needed to be installed in order to run the scripts.
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-### Prerequisites 
+#### Prerequisites 
 
 The older version of python is needed in order to run the software.
 1. Get Python 2.7 from [python official website](https://www.python.org/about/)
@@ -47,7 +44,7 @@ The older version of python is needed in order to run the software.
 3. Get python SDK from [ALDebaran documentations](http://doc.aldebaran.com/2-4/dev/python/install_guide.html)
 
 
-### Installation 
+#### Installation 
 
 A few libraries are also needed.
 
@@ -76,13 +73,13 @@ There was two ways:
 2. Analysing images that are already taken -> `opencv_image_analyse` folder
  
 
-### Prerequisites 
+#### Prerequisites 
 These files in this folder were run and tested using python 3.8. 
 1. Get Python 3.8 from [python official website](https://www.python.org/about/)
 
 
 
-### Installation 
+#### Installation 
 Extra libraries are needed to run this section of scripts as well as comparing the obtained results of images from Excel file.
 
 1. Install Anaconda which comes with a lot of pre-installed libraries. Instruction found in [Anadonda Documentations](https://docs.continuum.io/anaconda/install/).
