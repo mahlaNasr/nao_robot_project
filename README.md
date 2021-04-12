@@ -100,7 +100,7 @@ This project was a contributed to help the National Gallery in order to make the
 <!-- LICENSE -->
 ## License 
 
-For distribution, please reference my code and cite my report which can be found in  :)
+For distribution, please reference my code and cite my [report](https://drive.google.com/file/d/1tI2FzyNm9XHmyPpshxGPi-ilAd05Y5fe/view?usp=sharing) :)
 
 
 
