@@ -1,0 +1,31 @@
+topic: ~french_topic()
+language: frf
+
+# This topic is included in case you want to add some french conversations
+# In order to activate this engine, add:
+# self.ALDialog.loadTopic(os.path.abspath("welcome_talk_frf.top"))
+# in nao_project class
+# NOTE: this dialogou is included as part of another independent showcase
+
+concept:(repeat_it) ["[restate repeat] {me} [the your] {last} question"
+                    "what is the question {again}"
+                    "repeat ["the sentence" "your last sentence" "what you just said"] {again} {please}"
+                    "{"can you"} repeat {please}"
+                    "{"can you"} ask {me} the question {again}"
+                    "{"can you"} ask {me} the question one more time"
+                    "tell ["it to me" me] again"
+                    "what [is was] the question {again}"
+                    "what ["did you say" "were you [saying "asking me"]"] {again}"
+                    "ask {me} [the that] question {again}"
+                    "repeat [it please]"
+                    "come again"
+                    "[say ask] {that} again"
+                    "what was the question" what where]
+
+
+proposal: %check %again Please ask me if I can speak in your specified language in French.
+  u1: ({est-ce que} tu parles francais) oui, bien sûr! ^gotoReactivate(done)
+  u1:(~repeat_it) ^gotoReactivate(again)
+
+
+proposal: %done  I am glad you can understand me! Speak to you soon again, bye. $onStopped=1
