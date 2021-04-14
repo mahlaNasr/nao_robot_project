@@ -16,7 +16,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about">About The Project</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li>
       <a href="#booking_website">Booking Web Page folder</a>
       <ul>
