@@ -22,21 +22,22 @@
 
 This project proposes a system where humanoid robot, NAO, uses scanned QR code ticket information to form simple conversations with the visitors at the [**the National Portrait Gallery**](https://www.nationalgallery.org.uk/whats-on/national-gallery-x) art museum.
 
-There are two folders that are in this repository:
-* (a) nao_scan_qrcode
-* (b) analyse_qrcode
+There are three folders that are in this repository:
+* (a) scripts_enu
+* (b) scripts_frf
+* (c) analyse_qrcode
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 
-### (a) Script ([English](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_enu)) folder 
+### (a) Scripts ([English](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_enu)) folder 
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visitors.
 To run the whole system, write 
-    ```sh
+    `
     python nao_project.py
-    ```
+    `
 command in the terminal. A few libraries are needed to be installed in order to run the scripts which are listed below. 
 Make sure that you are in the same directory as the python file (i.e. `nao_robot_project/scripts_enu`).
 
@@ -44,11 +45,11 @@ Make sure that you are in the same directory as the python file (i.e. `nao_robot
 [Retrieving QR code Data to Form Personalised Speeches](https://youtu.be/nI8LN00qGhE)
 
 
-### (b) Script ([French](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_frf)) folder
+### (b) Scripts ([French](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_frf)) folder
 These sets of scripts were added to show future possibilities that can be done with the built system. NAO retrieves  the language parameter within a pre-generated JSON file from a pre-scanned QR code that is inside the folder. It then asks the visitors to ask if NAO can speak in French or not. This program is very small and it is recorded below to show how it works. To run this program write
-    ```sh
+    `
     python nao_french_project.py
-    ```
+    `
 command in the terminal. Make sure that you are in the same directory as the python file (i.e. `nao_robot_project/scripts_frf`).
 
 #### Demo Video for (b) Section
