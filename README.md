@@ -33,7 +33,7 @@ There are three folders that are in this repository:
 ## Getting Started
 
 ### [(a)](https://github.com/mahlaNasr/nao_robot_project/tree/master/booking_website) Booking Web Page folder
-To book a ticket for one of the gallery's events, I made a webpage where it generates a QR code with all the input parameters that you enter. This QR code then gets scanned by the robot to read the JSON file information inside the code. To run the scripts in this folder, [XAMPP](https://www.apachefriends.org/index.html) needs to be set up to run a local server. Write the IP address of your local server along with the directory of where the scripts are saved in the search bar of any search engine. In my case it was: 'http://192.168.64.2/booking_website/index.php'
+To book a ticket for one of the gallery's events, I made a webpage where it generates a QR code with all the input parameters that you enter. This QR code then gets scanned by the robot to read the JSON file information inside the code. To run the scripts in this folder, [XAMPP](https://www.apachefriends.org/index.html) needs to be set up to run a local server. Write the IP address of your local server along with the directory of where the scripts are saved in the search bar of any search engine. In my case it was: 'http://192.168.64.2/booking_website/index.php'.
 Make sure that this folder (a) gets saved inside 'htdocs' folder in XAMPP.
 
 
