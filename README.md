@@ -32,7 +32,7 @@
     <li>
       <a href="#c-scripts-french-folder">Scripts (French) folder</a>
       <ul>
-        <li><a href="#demo-video-for-section-c">Demo Video for Section (3)</a></li>
+        <li><a href="#demo-video-for-section-c">Demo Video for Section (c)</a></li>
       </ul>
     </li>
     <li>
@@ -63,7 +63,6 @@
 
 This project proposes a system where humanoid robot, NAO, uses scanned QR code ticket information to form simple conversations with the visitors at the [**the National Portrait Gallery**](https://www.nationalgallery.org.uk/whats-on/national-gallery-x) art museum.
 
-
 There are three folders that are in this repository:
 * (a) booking_website
 * (b) scripts_enu
@@ -77,7 +76,7 @@ To book a ticket for one of the gallery's events, I made a webpage where it gene
 Make sure that this folder (a) gets saved inside `htdocs` folder in XAMPP.
 
 
-##### Demo Video for Section (a) 
+#### Demo Video for Section (a) 
 [Booking a Ticket for National Gallery Museum Demo](https://youtu.be/mtQ_YTJ_wK8)
 
 
@@ -90,7 +89,7 @@ To run the whole system, write
 command in the terminal. A few libraries are needed to be installed in order to run the scripts which are listed below. 
 Make sure that you are in the same directory as the python file (i.e. `nao_robot_project/scripts_enu`).
 
-##### Demo Video for Section (b)
+#### Demo Video for Section (b)
 [Retrieving QR code Data to Form Personalised Speeches](https://youtu.be/nI8LN00qGhE)
 
 
@@ -101,7 +100,7 @@ These sets of scripts were added to show future possibilities that can be done w
     `
 command in the terminal. Make sure that you are in the same directory as the python file (i.e. `nao_robot_project/scripts_frf`).
 
-##### Demo Video for Section (c)
+#### Demo Video for Section (c)
 [Personalised Speech Based on the 'Language' Parameter of a QR Code](https://youtu.be/HNX2OmFoa7k)
 
 
