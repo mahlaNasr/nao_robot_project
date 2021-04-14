@@ -187,7 +187,7 @@ Links to:
 * [My LinkedIn](https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
 * [My GitHub](https://github.com/mahlaNasr/) 
 * [NAO Project](https://github.com/mahlaNasr/nao_robot_project)
-* [YouTube Videos for Sections (a), (b) and (c)](https://www.youtube.com/watch?v=nI8LN00qGhE&list=PL7HjjvER6Zg1OaPwt4OcNtcNmq3_RAi9l&index=1&ab_channel=MahlaNasrollahi)
+* [YouTube Videos for Sections (a), (b) and (c)](https://www.youtube.com/watch?v=mtQ_YTJ_wK8&list=PL7HjjvER6Zg1OaPwt4OcNtcNmq3_RAi9l&index=1&ab_channel=MahlaNasrollahi)
 * Project Presentation (coming soon!)
 
 
