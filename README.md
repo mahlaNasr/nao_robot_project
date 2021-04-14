@@ -32,8 +32,29 @@ There are two folders that are in this repository:
 
 
 ### (a) Script ([English](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_enu)) folder 
-This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visiotrs.
-To run the whole system, execute `nao_project.py` python file. A few libraries are needed to be installed in order to run the scripts.
+This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visitors.
+To run the whole system, write 
+    ```sh
+    python nao_project.py
+    ```
+command in the terminal. A few libraries are needed to be installed in order to run the scripts which are listed below. 
+Make sure that you are in the same directory as the python file (i.e. `nao_robot_project/scripts_enu`).
+
+#### Demo Video for (a) Section
+[Retrieving QR code Data to Form Personalised Speeches](https://youtu.be/nI8LN00qGhE)
+
+
+### (b) Script ([French](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_frf)) folder
+These sets of scripts were added to show future possibilities that can be done with the built system. NAO retrieves  the language parameter within a pre-generated JSON file from a pre-scanned QR code that is inside the folder. It then asks the visitors to ask if NAO can speak in French or not. This program is very small and it is recorded below to show how it works. To run this program write
+    ```sh
+    python nao_french_project.py
+    ```
+command in the terminal. Make sure that you are in the same directory as the python file (i.e. `nao_robot_project/scripts_frf`).
+
+#### Demo Video for (b) Section
+[Personalised Speech Based on the 'Language' Parameter of a QR Code](https://youtu.be/HNX2OmFoa7k)
+
+
 
 #### Prerequisites 
 
@@ -63,9 +84,7 @@ Other libraries such as JSON, time, os, argparse, random and qi were imported.
 
 
 
-
-
-### (b) Scripts for Analysing Qr Codes folder 
+### (c) Analysing Qr Codes folder 
 This folder was added to show how the images were analysed and decoded using a few other libraries. The results were then stored onto an Excel sheet.
 
 There was two ways:
@@ -95,12 +114,10 @@ This project was a contributed to help the National Gallery in order to make the
 
 
 
-
-
 <!-- LICENSE -->
 ## License 
 
-For distribution, please reference my code and cite my [report](https://drive.google.com/file/d/1tI2FzyNm9XHmyPpshxGPi-ilAd05Y5fe/view?usp=sharing) :)
+For distribution, please reference my [code](https://github.com/mahlaNasr/nao_robot_project) and cite my [report](https://drive.google.com/file/d/1tI2FzyNm9XHmyPpshxGPi-ilAd05Y5fe/view?usp=sharing) :)
 
 
 
@@ -109,8 +126,11 @@ For distribution, please reference my code and cite my [report](https://drive.go
 <!-- CONTACT -->
 ## Contact 
 
-My LinkedIn: [Link to LinkedIn](https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
-
-Project Link: [Link to NAO robot project github](https://github.com/mahlaNasr/nao_robot_project)
+Links to: 
+* [My LinkedIn](https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
+* [My GitHub](https://github.com/mahlaNasr/) 
+* [NAO Project](https://github.com/mahlaNasr/nao_robot_project)
+* [YouTube Videos for Sections (a) and (b)](https://www.youtube.com/watch?v=nI8LN00qGhE&list=PL7HjjvER6Zg1OaPwt4OcNtcNmq3_RAi9l&index=1&ab_channel=MahlaNasrollahi)
+* [Project Presentation](coming soon!)
 
 
