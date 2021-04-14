@@ -56,7 +56,6 @@
   </ol>
 </details>
 
- Getting Started for Virtual NAO 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
