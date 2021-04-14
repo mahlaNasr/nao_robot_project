@@ -18,36 +18,36 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li>
-      <a href="#booking_website">Booking Web Page folder</a>
+      <a href="#a-booking-web-page-folder">Booking Web Page folder</a>
       <ul>
-        <li><a href="#demo1">Demo Video for (1) Section</a></li>
+        <li><a href="#demo-video-for-section-a">Demo Video for Section (a)</a></li>
       </ul>
     </li>
     <li>
-      <a href="#enu">Scripts (English) folder</a>
+      <a href="#b-scripts-english-folder">Scripts (English) folder</a>
       <ul>
-        <li><a href="#demo2">Demo Video for (2) Section</a></li>
+        <li><a href="#demo-video-for-section-b">Demo Video for Section (b)</a></li>
       </ul>
     </li>
     <li>
-      <a href="#frf">Scripts (French) folder</a>
+      <a href="#c-scripts-french-folder">Scripts (French) folder</a>
       <ul>
-        <li><a href="#demo3">Demo Video for (3) Section</a></li>
+        <li><a href="#demo-video-for-section-c">Demo Video for Section (3)</a></li>
       </ul>
     </li>
     <li>
-      <a href="#started_nao">Getting Started for Virtual NAO</a>
+      <a href="#getting-started-for-virtual-nao">Getting Started for Virtual NAO</a>
       <ul>
-        <li><a href="#prerequisites1">Prerequisites</a></li>
-        <li><a href="#installation1">Installation</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#analyse">Analysing Qr Codes folder</a></li>
+    <li><a href="#d-analysing-qr-codes-folder">Analysing Qr Codes folder</a></li>
     <li>
-      <a href="#started_analyse">Getting Started for Analysing QR Codes</a></li> 
+      <a href="#getting-started-for-analysing-qr-codes">Getting Started for Analysing QR Codes</a></li> 
       <ul>
-        <li><a href="#prerequisites2">Prerequisites</a></li>
-        <li><a href="#installation2">Installation</a></li>
+        <li><a href="#prerequisites-1">Prerequisites</a></li>
+        <li><a href="#installation-1">Installation</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
