@@ -23,16 +23,25 @@
 This project proposes a system where humanoid robot, NAO, uses scanned QR code ticket information to form simple conversations with the visitors at the [**the National Portrait Gallery**](https://www.nationalgallery.org.uk/whats-on/national-gallery-x) art museum.
 
 There are three folders that are in this repository:
-* (a) scripts_enu
-* (b) scripts_frf
-* (c) analyse_qrcode
+* (a) booking_website
+* (b) scripts_enu
+* (c) scripts_frf
+* (d) analyse_qrcode
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
+### [(a)](https://github.com/mahlaNasr/nao_robot_project/tree/master/booking_website) Booking Web Page folder
+To book a ticket for one of the gallery's events, I made a webpage where it generates a QR code with all the input parameters that you enter. This QR code then gets scanned by the robot to read the JSON file information inside the code. To run the scripts in this folder, [XAMPP](https://www.apachefriends.org/index.html) needs to be set up to run a local server. Write the IP address of your local server along with the directory of where the scripts are saved in the search bar of any search engine. In my case it was: 'http://192.168.64.2/booking_website/index.php'
+Make sure that this folder (a) gets saved inside 'htdocs' folder in XAMPP.
 
-### (a) Scripts ([English](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_enu)) folder 
+
+#### Demo Video for (a) Section
+[Booking a Ticket for National Gallery Museum Demo](https://youtu.be/mtQ_YTJ_wK8)
+
+
+### [(b)](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_enu) Scripts (English) folder 
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visitors.
 To run the whole system, write 
     `
@@ -41,18 +50,18 @@ To run the whole system, write
 command in the terminal. A few libraries are needed to be installed in order to run the scripts which are listed below. 
 Make sure that you are in the same directory as the python file (i.e. `nao_robot_project/scripts_enu`).
 
-#### Demo Video for (a) Section
+#### Demo Video for (b) Section
 [Retrieving QR code Data to Form Personalised Speeches](https://youtu.be/nI8LN00qGhE)
 
 
-### (b) Scripts ([French](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_frf)) folder
+### [(c)](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_frf) Scripts (French) folder
 These sets of scripts were added to show future possibilities that can be done with the built system. NAO retrieves  the language parameter within a pre-generated JSON file from a pre-scanned QR code that is inside the folder. It then asks the visitors to ask if NAO can speak in French or not. This program is very small and it is recorded below to show how it works. To run this program write
     `
     python nao_french_project.py
     `
 command in the terminal. Make sure that you are in the same directory as the python file (i.e. `nao_robot_project/scripts_frf`).
 
-#### Demo Video for (b) Section
+#### Demo Video for (c) Section
 [Personalised Speech Based on the 'Language' Parameter of a QR Code](https://youtu.be/HNX2OmFoa7k)
 
 
@@ -85,7 +94,7 @@ Other libraries such as JSON, time, os, argparse, random and qi were imported.
 
 
 
-### (c) Analysing Qr Codes folder 
+### [(d)](https://github.com/mahlaNasr/nao_robot_project/tree/master/analyse_qrcode) Analysing Qr Codes folder 
 This folder was added to show how the images were analysed and decoded using a few other libraries. The results were then stored onto an Excel sheet.
 
 There was two ways:
@@ -131,7 +140,7 @@ Links to:
 * [My LinkedIn](https://www.linkedin.com/in/mahla-nasrollahi-0bb679163)
 * [My GitHub](https://github.com/mahlaNasr/) 
 * [NAO Project](https://github.com/mahlaNasr/nao_robot_project)
-* [YouTube Videos for Sections (a) and (b)](https://www.youtube.com/watch?v=nI8LN00qGhE&list=PL7HjjvER6Zg1OaPwt4OcNtcNmq3_RAi9l&index=1&ab_channel=MahlaNasrollahi)
+* [YouTube Videos for Sections (a), (b) and (c)](https://www.youtube.com/watch?v=nI8LN00qGhE&list=PL7HjjvER6Zg1OaPwt4OcNtcNmq3_RAi9l&index=1&ab_channel=MahlaNasrollahi)
 * Project Presentation (coming soon!)
 
 
