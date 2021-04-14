@@ -13,14 +13,56 @@
 </p>
 
 
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about">About The Project</a></li>
+    <li>
+      <a href="#booking_website">Booking Web Page folder</a>
+      <ul>
+        <li><a href="#demo1">Demo Video for (1) Section</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#enu">Scripts (English) folder</a>
+      <ul>
+        <li><a href="#demo2">Demo Video for (2) Section</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#frf">Scripts (French) folder</a>
+      <ul>
+        <li><a href="#demo3">Demo Video for (3) Section</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#started_nao">Getting Started for Virtual NAO</a>
+      <ul>
+        <li><a href="#prerequisites1">Prerequisites</a></li>
+        <li><a href="#installation1">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#analyse">Analysing Qr Codes folder</a></li>
+    <li>
+      <a href="#started_analyse">Getting Started for Analysing QR Codes</a></li> 
+      <ul>
+        <li><a href="#prerequisites2">Prerequisites</a></li>
+        <li><a href="#installation2">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-
+ Getting Started for Virtual NAO 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
 This project proposes a system where humanoid robot, NAO, uses scanned QR code ticket information to form simple conversations with the visitors at the [**the National Portrait Gallery**](https://www.nationalgallery.org.uk/whats-on/national-gallery-x) art museum.
+
 
 There are three folders that are in this repository:
 * (a) booking_website
@@ -29,19 +71,17 @@ There are three folders that are in this repository:
 * (d) analyse_qrcode
 
 
-<!-- GETTING STARTED -->
-## Getting Started
 
-### [(a)](https://github.com/mahlaNasr/nao_robot_project/tree/master/booking_website) Booking Web Page folder
+### [(1)](https://github.com/mahlaNasr/nao_robot_project/tree/master/booking_website) Booking Web Page folder
 To book a ticket for one of the gallery's events, I made a webpage where it generates a QR code with all the input parameters that you enter. This QR code then gets scanned by the robot to read the JSON file information inside the code. To run the scripts in this folder, [XAMPP](https://www.apachefriends.org/index.html) needs to be set up to run a local server. Write the IP address of your local server along with the directory of where the scripts are saved in the search bar of any search engine. In my case it was: `http://192.168.64.2/booking_website/index.php`.
 Make sure that this folder (a) gets saved inside `htdocs` folder in XAMPP.
 
 
-#### Demo Video for (a) Section
+#### Demo Video for Section (1) 
 [Booking a Ticket for National Gallery Museum Demo](https://youtu.be/mtQ_YTJ_wK8)
 
 
-### [(b)](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_enu) Scripts (English) folder 
+### [(2)](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_enu) Scripts (English) folder 
 This folder consists of all the codes that were written for the robot to scan QR codes and interact with the visitors.
 To run the whole system, write 
     `
@@ -50,21 +90,26 @@ To run the whole system, write
 command in the terminal. A few libraries are needed to be installed in order to run the scripts which are listed below. 
 Make sure that you are in the same directory as the python file (i.e. `nao_robot_project/scripts_enu`).
 
-#### Demo Video for (b) Section
+#### Demo Video for Section (2)
 [Retrieving QR code Data to Form Personalised Speeches](https://youtu.be/nI8LN00qGhE)
 
 
-### [(c)](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_frf) Scripts (French) folder
+### [(3)](https://github.com/mahlaNasr/nao_robot_project/tree/master/scripts_frf) Scripts (French) folder
 These sets of scripts were added to show future possibilities that can be done with the built system. NAO retrieves  the language parameter within a pre-generated JSON file from a pre-scanned QR code that is inside the folder. It then asks the visitors to ask if NAO can speak in French or not. This program is very small and it is recorded below to show how it works. To run this program write
     `
     python nao_french_project.py
     `
 command in the terminal. Make sure that you are in the same directory as the python file (i.e. `nao_robot_project/scripts_frf`).
 
-#### Demo Video for (c) Section
+#### Demo Video for Section (c)
 [Personalised Speech Based on the 'Language' Parameter of a QR Code](https://youtu.be/HNX2OmFoa7k)
 
 
+
+<!-- GETTING STARTED -->
+## Getting Started for Virtual NAO 
+
+To be able to run folders (2) and (3), follow these steps below to set up the neccessary applications. 
 
 #### Prerequisites 
 
@@ -94,13 +139,17 @@ Other libraries such as JSON, time, os, argparse, random and qi were imported.
 
 
 
-### [(d)](https://github.com/mahlaNasr/nao_robot_project/tree/master/analyse_qrcode) Analysing Qr Codes folder 
+### [(4)](https://github.com/mahlaNasr/nao_robot_project/tree/master/analyse_qrcode) Analysing Qr Codes folder 
 This folder was added to show how the images were analysed and decoded using a few other libraries. The results were then stored onto an Excel sheet.
 
 There was two ways:
-1. Real-time scanning -> `take_process_img` folder
-2. Analysing images that are already taken -> `opencv_image_analyse` folder
+1. [Real-time scanning](https://github.com/mahlaNasr/nao_robot_project/tree/master/analyse_qrcode/take_process_img) -> `take_process_img` folder
+2. [Analysing images that are already taken](https://github.com/mahlaNasr/nao_robot_project/tree/master/analyse_qrcode/opencv_image_analyse) -> `opencv_image_analyse` folder
  
+ 
+
+<!-- GETTING STARTED -->
+## Getting Started for Analysing QR Codes
 
 #### Prerequisites 
 These files in this folder were run and tested using python 3.8. 
